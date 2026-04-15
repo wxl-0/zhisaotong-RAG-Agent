@@ -1,0 +1,22 @@
+# Ignore virtual environment
+.venv/
+
+# Ignore pycache
+__pycache__/
+
+# Ignore logs
+logs/
+
+# Ignore other temporary files
+*.log
+*.db
+
+# Ignore IDE configurations
+.vscode/
+.idea/
+
+# Ignore uvicorn lock file
+uv.lock
+
+# Ignore Python bytecode files
+*.pyc
