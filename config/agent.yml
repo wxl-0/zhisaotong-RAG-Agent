@@ -1,7 +1,7 @@
 external_data_path: data/external/records.csv
 
 # 高德 Web服务 Key
-amap_key: a80119ddf7c7fde079b7c7431e6d3032
+amap_key: 你的高德APIkey
 
 # 可选：前端/网关把真实用户IP写到哪个环境变量里
 user_real_ip_env: USER_REAL_IP
