@@ -146,7 +146,11 @@ cd zhisaotong-RAG-Agent
 ### 2. 使用 uv 安装依赖
 
 ```bash
-uv sync
+curl -LsSf https://astral.sh/uv/install.sh | sh     # 安装uv
+uv venv                                             # 创建环境
+source .venv/bin/activate                           # 激活环境（macOS/Linux）
+.venv\Scripts\activate                              # 激活环境（Windows）
+uv sync                                             # 安装依赖
 ```
 
 ### 3. 配置项目参数
@@ -312,15 +316,3 @@ report_prompt_path: prompts/report_prompt.txt
 * 扩展更多设备品类知识库
 
 ---
-
-## License
-
-如需开源发布，建议补充 `LICENSE` 文件，例如 MIT License。
-
-```
-
-要是你愿意，我可以继续给你一版“更像 bamboo-moon 那个仓库排版风格”的增强版，带徽章、运行截图占位、以及更漂亮的章节标题。
-::contentReference[oaicite:1]{index=1}
-```
-
-[1]: https://github.com/bamboo-moon/zhisaotong-Agent "GitHub - bamboo-moon/zhisaotong-Agent: 用streamlit编写简易前端网页，调用高德MCP提供实时定位和天气等服务,基于LangChain编写出一个AI智能体 · GitHub"
